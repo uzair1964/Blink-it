@@ -1,5 +1,5 @@
 # Blink-it
-I created a Power BI project for the BLINKIT app, which showcases the annual sales of grocery items sold both online and in stores. The dashboard also provides insights into the total fat content of items sold, categorizes sales data based on store and market, and highlights the total number of grocery items sold. 
+I created a Power BI project for the BLINKIT app, which showcases the annual sales of grocery items sold both online and in stores. The dashboard also provides insights into the total fat content of items sold, categorizes sales data based on store and market, and highlights the total number of grocery items sold.
 
 📈 Dashboard Features:
 Tier-wise Performance Breakdown:
@@ -36,6 +36,6 @@ Ratings remain consistent across fat categories.
 
 Outlet Type Comparison Table:
 
-Comparison across Grocery Store and Supermarket Type1–3
+Comparison across Grocery Store and Supermarket Types 1–3
 
 Includes total sales, number of items, average sales, and visibility.
