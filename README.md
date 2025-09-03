@@ -1,8 +1,25 @@
 # Blink-it Dashboard 📊
+## 🧭 Introduction
+This repository contains a **Blinkit sales performance** analytics project. It focuses on cleaning sales data (Excel/Power Query), shaping it (optional SQL), and building an interactive **Power BI** dashboard.  
+It helps stakeholders track **annual sales**, **category-wise contribution**, **top products**, and **basic nutrition/product attributes**, with slicers and drill-downs for fast decision-making.
 
-This Power BI project visualizes the annual sales data for the **BLINKIT** app, highlighting key insights into grocery sales, fat content analysis, and performance across different outlet types and markets. The dashboard focuses on both **online** and **in-store** sales, offering comprehensive data analysis for decision-making.
+## 🛠️ Project Type
+Backend Analytics / BI (Excel + Power BI; optional SQL for data shaping)
+
+## 🚀 Deployed App
+- Frontend: Not applicable  
+- Backend: Power BI Desktop (`.pbix`)  
+- Data Source: CSV/Excel (and/or SQL export)
+
 
 ## 🚀 Dashboard Features:
+## ✨ Features
+- **KPI cards:** revenue, orders, AOV, margin (if available)  
+- **Trends:** MoM/YoY sales and order count  
+- **Category & product analysis:** top categories/SKUs, % contribution, Pareto (80/20)  
+- **Interactive filters:** date, category, city/region, channel  
+- **(Optional) Nutrition/attributes:** compare items by calories/weight if present in dataset  
+- **Clean data pipeline:** Excel/Power Query steps documented; SQL script provided for reproducible shaping
 
 ### 📍 **Tier-wise Performance Breakdown:**
 - **Outlet location filter**: Categorizes data by tier (Tier 1, 2, 3).
@@ -43,6 +60,17 @@ Feel free to explore the dashboard and check out these insights visually!
 
 ---
 
+## 🎯 Design Decisions & Assumptions
+- The dataset is stored locally in `data/raw/`. Update the **Power BI** data source path on first open.  
+- Missing values handled via Power Query (type conversions, deduping, simple imputations).  
+- DAX kept simple (YoY/MoM, % contribution).  
+- If SQL is used, `sql/queries.sql` shows basic transformations before loading to Power BI.
+
+## 🧪 Installation & Getting Started
+1) **Clone the repo**
+```bash
+git clone https://github.com/uzair1964/Blink-it
+cd Blink-it
 ### 🚀 Technologies Used:
 - **Power BI**: For dashboard creation and data visualization.
 - **Excel**: Data processing and analysis.
